@@ -232,6 +232,7 @@ const validSources = [
   "bookstack",
   "confluence",
   "jira",
+  "jira_service_management",
   "productboard",
   "slab",
   "notion",

@@ -101,6 +101,7 @@ class DocumentSource(str, Enum):
     CONFLUENCE = "confluence"
     SLAB = "slab"
     JIRA = "jira"
+    JIRA_SERVICE_MANAGEMENT = "jira_service_management"
     PRODUCTBOARD = "productboard"
     FILE = "file"
     NOTION = "notion"

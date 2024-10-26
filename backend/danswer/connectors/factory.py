@@ -12,6 +12,7 @@ from danswer.connectors.bookstack.connector import BookstackConnector
 from danswer.connectors.clickup.connector import ClickupConnector
 from danswer.connectors.confluence.connector import ConfluenceConnector
 from danswer.connectors.danswer_jira.connector import JiraConnector
+from danswer.connectors.jira_service_management.connector import JiraServiceManagementConnector
 from danswer.connectors.discourse.connector import DiscourseConnector
 from danswer.connectors.document360.connector import Document360Connector
 from danswer.connectors.dropbox.connector import DropboxConnector
@@ -73,6 +74,7 @@ def identify_connector_class(
         DocumentSource.BOOKSTACK: BookstackConnector,
         DocumentSource.CONFLUENCE: ConfluenceConnector,
         DocumentSource.JIRA: JiraConnector,
+        DocumentSource.JIRA_SERVICE_MANAGEMENT: JiraServiceManagementConnector,
         DocumentSource.PRODUCTBOARD: ProductboardConnector,
         DocumentSource.SLAB: SlabConnector,
         DocumentSource.NOTION: NotionConnector,

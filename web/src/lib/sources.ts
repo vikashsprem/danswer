@@ -17,6 +17,7 @@ import {
   GuruIcon,
   HubSpotIcon,
   JiraIcon,
+  JiraServiceManagementIcon,
   LinearIcon,
   LoopioIcon,
   NotionIcon,
@@ -111,6 +112,12 @@ const SOURCE_METADATA_MAP: SourceMap = {
     displayName: "Jira",
     category: SourceCategory.ProjectManagement,
     docs: "https://docs.danswer.dev/connectors/jira",
+  },
+  jira_service_management: {
+    icon: JiraServiceManagementIcon,
+    displayName: "Jira Service Management",
+    category: SourceCategory.CustomerSupport,
+    docs: "https://docs.danswer.dev/connectors/jira_service_management",
   },
   notion: {
     icon: NotionIcon,
